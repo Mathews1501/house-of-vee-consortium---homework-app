@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // grade 5 urls
       "grade5-english": "",
-      "grade5-maths": "",
+      "grade5-maths": "https://www.youtube.com/watch?v=yLC0qfXvQSE&t=14s&pp=ygUNZ3JhZGUgNSBtYXRocw%3D%3D",
       "grade5-geography": "",
       "grade5-afrikaan": "",
 
