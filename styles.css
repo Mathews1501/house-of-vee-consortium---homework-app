@@ -342,13 +342,21 @@ footer {
         font-size: 4%;
     }
 
+    p{
+        font-size: 15px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+
     .container {
         max-width: 100%;
         margin: 0 auto;
         padding: 0 10px;
     }
     section img {
-        max-width: 100%;
+        width: 70%;
         align-items: center;
         justify-content: center;
     }
@@ -465,6 +473,11 @@ footer {
      
      height: auto;
        }
+
+       #contact {
+
+        height: auto;
+    }
 
 }
     
