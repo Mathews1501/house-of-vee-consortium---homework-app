@@ -343,7 +343,7 @@ footer {
     }
 
     p{
-        font-size: 15px;
+        font-size: 10px;
     }
     
     h2{
@@ -375,16 +375,18 @@ footer {
         justify-content: center;
         align-content: center;
         align-items: center;
+        
 
     }
 
     nav ul li {
         margin-right: 10px;
-        display: inline-block;
+        display: block;
         justify-content: center;
         align-content: center;
         align-items: center;
-        font-size: 30px;
+        font-size: 9px;
+    
     }
 
     .button {
@@ -426,8 +428,8 @@ footer {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-left: 10%;
-        font-size: 30px;
+        margin-left: 5%;
+        font-size: 20px;
     }
 
     .headlogo img{
