@@ -376,6 +376,7 @@ footer {
         justify-content: center;
         align-content: center;
         align-items: center;
+        font-size: 30px;
     }
 
     .button {
@@ -418,6 +419,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin-left: 10%;
+        font-size: 30px;
     }
 
     .headlogo img{
