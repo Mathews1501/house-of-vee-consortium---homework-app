@@ -74,7 +74,7 @@ background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 
 .header h1 {
     color: #000000;
-    margin-left: -10px;
+    margin-left: 10px;
     text-shadow:2px 2px 4px white;
 }
  section h2{
@@ -330,10 +330,6 @@ footer {
     text-shadow:2px 2px 4px white;   
 }
 
-#social img{
-    width: 300px;
-}
-
 
 
 @media (max-width: 720px) {
@@ -343,11 +339,11 @@ footer {
     }
 
     p{
-        font-size: 10px;
+        font-size: 8.5px;
     }
     
     h2{
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .container {
@@ -356,7 +352,7 @@ footer {
         padding: 0 10px;
     }
     section img {
-        width: 70%;
+        width: 60%;
         align-items: center;
         justify-content: center;
     }
@@ -386,6 +382,7 @@ footer {
         align-content: center;
         align-items: center;
         font-size: 9px;
+        
     
     }
 
@@ -403,7 +400,7 @@ footer {
     }
 
     #scrollUpBtn {
-        bottom: 30px; 
+        bottom: 60px; 
         right: 20px;
         width: 50px; 
         height: 50px;
@@ -429,7 +426,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin-left: 5%;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .headlogo img{
@@ -479,6 +476,24 @@ footer {
        #contact {
 
         height: auto;
+    }
+
+    footer {
+        padding-bottom: 8px;
+        background: linear-gradient(90deg, #4b5252 0%, #9FACE6 100%);
+        background-color: #333; 
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-weight: 800;
+        text-shadow:2px 2px 4px white;   
+    }
+
+    footer h2{
+        font-size: 11px;
+        padding-top: 10px;
     }
 
 }
