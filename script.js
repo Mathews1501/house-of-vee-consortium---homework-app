@@ -19,45 +19,30 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
   //js for my download 
+  
+  // Function to trigger download
+  function downloadFile() {
+      // Check if Grade 4 and English are selected
+      var subject = document.getElementById('subjectSelect').value;
+      var grade = document.getElementById('gradeSelect').value;
 
-  document.addEventListener("DOMContentLoaded", function() {
-    var subjectSelect = document.getElementById("subjectSelect");
-    var gradeSelect = document.getElementById("gradeSelect");
-    var downloadLink = document.getElementById("downloadLink");
-    
-    subjectSelect.addEventListener("change", updateDownloadLink);
-    gradeSelect.addEventListener("change", updateDownloadLink);
+      if (subject === 'english' && grade === 'grade4') {
+          // Create a dummy link
+          var link = document.createElement('a');
+          link.href = 'path/to/grade4_english.pdf'; // Replace 'path/to/grade4_english.pdf' with the actual path to your PDF file
+          link.download = 'grade4_english.pdf'; // Specify the filename for download
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+      } else {
+          alert('Please select Grade 4 and English to download the file.');
+      }
+  }
 
-    function updateDownloadLink() {
-        var subject = subjectSelect.value;
-        var grade = gradeSelect.value;
+  // Attach the download function to the click event of the download link
+  document.getElementById('downloadLink').addEventListener('click', downloadFile);
 
-        if (subject && grade) {
-            // Construct file URL based on subject and grade for both PDF and Word documents
-            var pdfURL = "C:/Users/Administrator/Desktop/testDocument-" + subject + "-" + grade + ".pdf";
-            var wordURL = "C:/Users/Administrator/Desktop/testDocument-" + subject + "-" + grade + ".docx";
-            
-            // Check if the PDF file exists, otherwise use the Word document
-            var fileURL = pdfURL;
-            var fileExtension = "pdf";
-            var xhr = new XMLHttpRequest();
-            xhr.open('HEAD', pdfURL, false);
-            xhr.send();
-            if (xhr.status === 404) {
-                fileURL = wordURL;
-                fileExtension = "docx";
-            }
 
-            // Update href attribute of download link
-            downloadLink.href = fileURL;
-            downloadLink.setAttribute("download", "testDocument-" + subject + "-" + grade + "." + fileExtension);
-            downloadLink.style.display = "inline"; // Show the download link
-        } else {
-            // If subject or grade is not selected, hide the download link
-            downloadLink.style.display = "none";
-        }
-    }
-});
   //js to link the pages to my video lessons
 
   function redirectToPage() {
