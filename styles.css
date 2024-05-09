@@ -367,7 +367,7 @@ footer {
 
     .nav-container {
         margin-right: 0;
-        display: inline-block;
+        display: inline-flex;
         justify-content: center;
         align-content: center;
         align-items: center;
