@@ -52,28 +52,32 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define a mapping of grade-subject pairs to URLs
     var urlMapping = {
       // grade 4 urls
-        "grade4-english": "",
-        "grade4-maths": "",
-        "grade4-geography": "",
-        "grade4-afrikaan": "",
+        "grade4-english": "https://www.youtube.com/playlist?list=PLDhTCRMjso_6Ag0zPnnLocHJtL35gkIC3",
+        "grade4-maths": "https://www.youtube.com/playlist?list=PLDhTCRMjso_59UcfCQnLh527U3BasSc_L",
+        "grade4-science": "https://www.youtube.com/playlist?list=PLDhTCRMjso_59YF2P2bhMPA42JCcp--rV",
+        "grade4-afrikaan": "https://www.youtube.com/playlist?list=PL8in1WKIK6fmkiT95MBHi2GGIL9J-D5qS",
+        "grade4-technology:":"",
 
       // grade 5 urls
       "grade5-english": "",
       "grade5-maths": "https://www.youtube.com/watch?v=yLC0qfXvQSE&t=14s&pp=ygUNZ3JhZGUgNSBtYXRocw%3D%3D",
-      "grade5-geography": "",
+      "grade5-science": "",
       "grade5-afrikaan": "",
+      "grade5-technology:":"",
 
         // grade 6 urls
         "grade6-english": "",
         "grade6-maths": "",
-        "grade6-geography": "",
+        "grade6-science": "",
         "grade6-afrikaan": "",
+        "grade6-technology:":"",
 
         // grade 7 urls
         "grade7-english": "",
         "grade7-maths": "",
-        "grade7-geography": "",
+        "grade7-science": "",
         "grade7-afrikaan": "",
+        "grade7-technology:":"",
     };
 
     // Construct a key for the mapping based on selected grade and subject
