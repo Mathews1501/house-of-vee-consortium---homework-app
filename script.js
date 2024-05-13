@@ -90,3 +90,15 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Selected grade and subject combination does not have a corresponding URL.");
     }
 }
+
+// sidebar menu js
+
+function showSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+
+function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+}

@@ -23,15 +23,30 @@
 
     <input class="searchbar" type="search" placeholder="Search ">            
     <div class="nav-container">
+        <nav class="sidebar">
+            <ul>
+                <li class=".hideOnMobile"><a href="#about">About</a></li>
+                <li class=".hideOnMobile"><a href="#classes">Classes</a></li>
+                <li class=".hideOnMobile"><a href="#Upload">Download</a></li> 
+                <li class=".hideOnMobile"><a href="#contact">Contact</a></li>
+                
+                <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            </ul>
+        </nav>
+
         <nav class="nav">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#classes">Classes</a></li>
                 <li><a href="#Upload">Download</a></li> 
                 <li><a href="#contact">Contact</a></li> 
+               
             </ul>
         </nav>
+         
+        
         <button class="button">Sign Up</button>
+         <li onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
     </div>
 </header>
 
