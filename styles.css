@@ -9,6 +9,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
+
+
 .separator {
     width: 100%;
     border-top: 2px solid #000;
@@ -231,7 +233,7 @@ nav a:hover {
   #scrollUpBtn {
     display: block;
     position: fixed;
-    bottom: 90px;
+    bottom: 100px;
     right: 30px;
     width: 60px;
     height: 60px;
@@ -246,43 +248,11 @@ nav a:hover {
   }
   
   #scrollUpBtn:hover {
-    background-color: gray;
+    background-color: green;
   }
 
   
-#dropdown {
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); 
-    border: 2px solid black;
-    color: black; 
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 500;
-    margin-right: 10px;
-  }
-  
-  
-  button[type="submit"] {
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); 
-    border: 2px solid black;
-    color: black; 
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 500;
-    margin-right: 10px;
-  }
-  
+
   .download-btn {
     background-color: #74EBD5;
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); 
@@ -297,6 +267,7 @@ nav a:hover {
     cursor: pointer;
     font-weight: 500;
     margin-right: 10px;
+    width: 120px;
 }
 
 
@@ -315,6 +286,45 @@ nav a:hover {
     cursor: pointer;
     font-weight: 500;
     margin-right: 10px;
+    width: 120px;
+}
+
+#subjectSelectclasses{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); 
+    border: 2px solid black;
+    color: black; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+    width: 120px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#gradeSelectclasses{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); 
+    border: 2px solid black;
+    color: black; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+    width: 120px;
 }
 
 footer {

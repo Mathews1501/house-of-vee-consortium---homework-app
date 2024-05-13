@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function() {
   //js to link the pages to my video lessons
 
   function redirectToPage() {
-    var grade = document.getElementById("gradeSelect").value;
-    var subject = document.getElementById("subjectSelect").value;
+    var grade = document.getElementById("gradeSelectclasses").value;
+    var subject = document.getElementById("subjectSelectclasses").value;
 
     // Define a mapping of grade-subject pairs to URLs
     var urlMapping = {
