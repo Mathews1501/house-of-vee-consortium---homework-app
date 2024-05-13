@@ -15,7 +15,9 @@
     border-top: 2px solid #000;
   }
 
-
+ svg{
+    display: none;
+ }
   .sidebar{
     position: fixed;
     top: 0;
@@ -373,30 +375,50 @@ footer {
         font-size: 4%;
     }
      
-    .hideOnMobile{
-        display: none;
-    }
+      svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+      }
       
     .sidebar{
         position: fixed;
         top: 0;
         right: 0;
-        height: 100vh;
-        width: 200px;
+        height: 30vh;
+        width: 150px;
         z-index: 999;
         display: none;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        backdrop-filter: blur(10px); 
+        backdrop-filter: blur(5px); 
     }
     
     .sidebar li{
         width: 100%;
+        padding-top: 13px;
     }
     
     .sidebar a{
         width: 100%;
+    }
+
+    .nav ul li:nth-child(1) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(2) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(3) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(4) {
+        display: none;
     }
     
 
@@ -488,9 +510,7 @@ footer {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-right: 22%;
-        
-        font-size: 12px;
+        font-size: 15px;
         
     }
 
