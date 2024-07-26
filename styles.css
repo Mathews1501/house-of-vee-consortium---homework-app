@@ -391,7 +391,7 @@ footer {
       .sidebar{
         position: fixed;
         margin-top: 0;
-        margin-left: 0;
+        margin-right: 182px;
         height: 100vh;
         width: 200px;
         z-index: 999;
