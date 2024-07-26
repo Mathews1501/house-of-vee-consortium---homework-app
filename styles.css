@@ -374,31 +374,37 @@ footer {
         width: 100%;
         font-size: 4%;
     }
+
+    .nav-container .sidebar ul li img{
+        width: 100px;
+    }
      
-      svg{
+    svg{
         display: flex;
         align-items: center;
         justify-content: center;
         align-content: center;
+        
+        
       }
 
-    .sidebar{
+      .sidebar{
         position: fixed;
-        top: 0;
-        right: 0;
-        height: 30vh;
-        width: 150px;
+        margin-top: 0;
+        margin-left: 0;
+        height: 100vh;
+        width: 200px;
         z-index: 999;
         display: none;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        backdrop-filter: blur(5px); 
+        backdrop-filter: (40px); 
     }
     
     .sidebar li{
         width: 100%;
-        padding-top: 15px;
+        padding-top: 25px;
         font-weight: 500;
     }
     
@@ -467,8 +473,8 @@ footer {
         justify-content: center;
         align-content: center;
         align-items: center;
-        font-size: 9px;  
-      
+        font-size: 15px;  
+        text-shadow: 2px 2px 4px white;
     
     }
 
@@ -534,12 +540,9 @@ footer {
       }
 
     section {
-        
         justify-items: center;
         align-items: center;
         text-align: center;
-    
-        
     }
 
     #about{
